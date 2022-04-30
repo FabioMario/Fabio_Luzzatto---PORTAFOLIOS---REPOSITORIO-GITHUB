@@ -1,7 +1,7 @@
 # Fabio_Luzzatto---PORTAFOLIOS---REPOSITORIO-GITHUB
 Armar repositorio en github con una estructura de carpetas en el README para cada unidad temática o una página web estática utilizando Github Pages. Remitir un txt a esta entrega con el link al repositorio dando acceso público al mismo.
 
-@@Lista Enlazada
+###Lista Enlazada
 Una lista enlazada es una colección o secuencia de elementos dispuestos uno detrás de otro, en la que cada elemento se conecta al siguiente elemento por un “enlace” o “referencia”
 
 ```java
