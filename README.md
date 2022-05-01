@@ -6,6 +6,7 @@
 + [Lista Enlazada](#lista-enlazada)
 + [Pila](#pila)
 + [Cola](#cola)
++ [Ordenes de tiempo de ejecución](#ordenes-de-tiempo-de-ejecución)
 
 
 ## Letra del Ejercicio
