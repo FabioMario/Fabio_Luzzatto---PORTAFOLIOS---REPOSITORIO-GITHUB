@@ -2,15 +2,20 @@
 
 
 ## [Índice](#fabio-luzzatto---portafolios---repositorio-github)
-+ [Letra del Ejercicio](#letra-del-ejercicio)
-+ [Lista Enlazada](#lista-enlazada)
-+ [Pila](#pila)
-+ [Cola](#cola)
-+ [Ordenes de tiempo de ejecución](#ordenes-de-tiempo-de-ejecución)
++ [PDs para el Primer Parcial](#pds-para-el-primer-parcial)
+	+ [Letra del Ejercicio](#letra-del-ejercicio)
+	+ [Lista Enlazada](#lista-enlazada)
+	+ [Pila](#pila)
+	+ [Cola](#cola)
+	+ [Ordenes de tiempo de ejecución](#ordenes-de-tiempo-de-ejecución)
++ [PDs para el Segundo Parcial](#pds-para-el-segundo-parcial)
+	+ [Árboles](#árboles) 
 
 
 ## Letra del Ejercicio
 Armar repositorio en github con una estructura de carpetas en el README para cada unidad temática o una página web estática utilizando Github Pages. Remitir un txt a esta entrega con el link al repositorio dando acceso público al mismo.
+
+# PDs para el Primer Parcial
 
 ## Lista Enlazada
 Una lista enlazada es una colección o secuencia de elementos dispuestos uno detrás de otro, en la que cada elemento se conecta al siguiente elemento por un “enlace” o “referencia”
@@ -243,3 +248,60 @@ Algunos ejemplos usando un programa que ordena <img src="https://render.githubus
 <img src="https://render.githubusercontent.com/render/math?math=O(N^{n})"> significa crecimiento cuadrático. El programa de clasificación hace un número constante de pases a través de la lista completa para cada número ingresado. Con el doble del tamaño de los datos de entrada, el tiempo de ejecución es aproximadamente cuatro veces mayor.
 
 <img src="https://render.githubusercontent.com/render/math?math=O(2^{n})"> significa un crecimiento exponencial. El tiempo de ejecución se duplicaría (aproximadamente) con cada número adicional, lo que conduce a tiempos de ejecución extremadamente largos, incluso con tamaños de entrada relativamente pequeños.
+
+
+# PDs para el Segundo Parcial
+
+## Árboles
+- Los Árboles son las estructuras de datos más utilizadas, pero también una de las más complejas, Los Árboles se caracterizan por almacenar sus nodos en forma jerárquica y no en forma lineal como las Listas Ligadas, Colas, Pilas, etc.
+- El árbol es una estructura fundamental en las Ciencias de la computación.
+- Casi todos los sistemas operativos almacenan los archivos en árboles o estructuras similares a árboles.
+- Los árboles también se emplean en el diseño de compiladores, el procesamiento de textos y los algoritmos de búsqueda.
+
+![image](https://user-images.githubusercontent.com/67033535/170891299-b29af31e-2c96-4382-8647-7f0ae91cc1ce.png)
+
+
+**Datos importantes de los Árboles**
+
+Para comprender mejor que es un árbol comenzaremos explicando cómo está estructurado.
+
++Nodos: Se le llama Nodo a cada elemento que contiene un Árbol.
+
++Nodo Raíz: Se refiere al primer nodo de un Árbol, Solo un nodo del Árbol puede ser la Raíz.
+
+![image](https://user-images.githubusercontent.com/67033535/170891506-8afa7df7-c431-4628-8ed5-b7b69dbeee12.png)
+
++Nodo Padre: Se utiliza este término para llamar a todos aquellos nodos que tiene al menos un+ hijo.
+
++Nodo Hijo: Los hijos son todos aquellos nodos que tiene un padre.
+
+![image](https://user-images.githubusercontent.com/67033535/170891512-cabf99fe-3960-412d-b24d-f4173609f674.png)
+
++Nodo Hermano: Los nodos hermanos son aquellos nodos que comparte a un mismo padre en común dentro de la estructura.
+
++Nodo Hoja: Son todos aquellos nodos que no tienen hijos, los cuales siempre se encuentran en los extremos de la estructura.
+
+![image](https://user-images.githubusercontent.com/67033535/170891514-36b95a1d-ed6e-41dc-9698-42095afb55f9.png)
+
++Nodo Rama: Estos son todos aquellos nodos que no son la raíz y que además tiene al menos un hijo. 
+
++Altura: Le llamamos Altura al número máximo de niveles de un Árbol.
+
+![image](https://user-images.githubusercontent.com/67033535/170891517-e50cfdb1-e94f-4ba6-b8d8-a40ab34d98d9.png)
+
++Tamaño/Peso: Conocemos como peso a el número de nodos que tiene un Árbol. Este factor es importante porque nos da una idea del tamaño del árbol y el tamaño en memoria que nos puede ocupar en tiempo de ejecución (Complejidad Espacial en análisis de algoritmos.)
+
+![image](https://user-images.githubusercontent.com/67033535/170891520-54ec1ce7-0910-4e2a-af8d-a81d0739fd01.png)
+
++Orden: El Orden de un árbol es el número máximo de hijos que puede tener un Nodo.
+
+![image](https://user-images.githubusercontent.com/67033535/170891525-11a568cb-3ddd-496f-888d-a528ae570f27.png)
+
++Grado: El grado se refiere al número mayor de hijos que tiene alguno de los nodos del Árbol y está limitado por el Orden, ya que este indica el número máximo de hijos que puede tener un nodo. 
+
+![image](https://user-images.githubusercontent.com/67033535/170891529-89d388a5-3c27-4bff-a48f-a83fef3a3da0.png)
+
+
+
+
+
