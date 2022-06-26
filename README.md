@@ -2,18 +2,20 @@
 
 
 ## [Índice](#fabio-luzzatto---portafolios---repositorio-github)
++ [Objetivo del Repositorio](#objetivo-del-repositorio)
 + [PDs para el Primer Parcial](#pds-para-el-primer-parcial)
-	+ [Letra del Ejercicio](#letra-del-ejercicio)
 	+ [Lista Enlazada](#lista-enlazada)
 	+ [Pila](#pila)
 	+ [Cola](#cola)
 	+ [Ordenes de tiempo de ejecución](#ordenes-de-tiempo-de-ejecución)
 + [PDs para el Segundo Parcial](#pds-para-el-segundo-parcial)
 	+ [Árboles](#árboles) 
++ [PDs para el Tercer Parcial](#pds-para-el-tercer-parcial)
 
-
-## Letra del Ejercicio
-Armar repositorio en github con una estructura de carpetas en el README para cada unidad temática o una página web estática utilizando Github Pages. Remitir un txt a esta entrega con el link al repositorio dando acceso público al mismo.
+# Objetivo del Repositorio
+Es importante desarrollar hábitos de “meta-aprendizaje”, es decir, capacidades de reflexión sobre los procesos cognitivos con el fin de lograr cada vez una mayor efectividad en el aprendizaje, para ello existe el “Portafolios de Aprendizaje” individual. 
+En el mismo se iran volcando las reflexiones relativas a los aprendizajes alcanzados en las Unidades Temáticas, así como los informes, prácticos domiciliarios y presentaciones realizadas, junto con las correspondientes autoevaluaciones. 
+Hay que recordar que el portafolios debe ser desarrollado durante el curso, es decir, no se aceptará un portafolio en el cual los ítems anteriormente mencionados sean añadidos pasado un tiempo considerable de la finalización de cada unidad temática.
 
 # PDs para el Primer Parcial
 
@@ -302,6 +304,14 @@ Para comprender mejor que es un árbol comenzaremos explicando cómo está estru
 ![image](https://user-images.githubusercontent.com/67033535/170891529-89d388a5-3c27-4bff-a48f-a83fef3a3da0.png)
 
 
+# PDs para el Tercer Parcial
+En informática, un árbol AVL es una estructura de datos. Se trata de un árbol de búsqueda binario, cuya altura difiere como máximo en uno en cada nodo de ambos subárboles, es decir, equilibrado o equilibrado en altura.
+
+Un árbol de búsqueda binaria se diferencia de los árboles AVL principalmente en que el uso de la condición de equilibrio puede evitar que los árboles se conviertan en una lista o árboles con un sesgo de derecha/izquierda. Este equilibrio optimiza en gran medida la navegación por el árbol, por ejemplo, la búsqueda de un número.
+
+Para los árboles AVL, se deben registrar las alturas correspondientes de los subárboles individuales. Para ello se utiliza el factor de equilibrio. Esto se define como la altura del subárbol derecho menos la altura del subárbol izquierdo:
+
+Factor de equilibrio = altura (subárbol derecho) – altura (subárbol izquierdo)
 
 
 
